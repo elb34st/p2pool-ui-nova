@@ -165,7 +165,7 @@ Litecoin: LfLbmqeuHdKSpoBxKVNWoRwNEmXRhBSHUx
 
 The MIT License (MIT)
 
-Copyright (c) 2017 Alexandre Renaud vtc@boxienet.net
+Copyright (c) 2017 Alexandre Renaud vtc@boxienet.net   
 Copyright (c) 2014-2015 Justin La Sotten justin.otten@gmail.com   
 Copyright (c) 2013-2014 Alexander Zschach alex@zschach.net
 
