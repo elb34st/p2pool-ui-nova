@@ -1,4 +1,4 @@
-p2pool-ui-punchy
+p2pool-ui-nova
 ==================
 
 Another alternative p2pool UI.
@@ -30,7 +30,7 @@ See Screenshots:
 To run this UI in parallel to your current p2pool web interface, do in your web-static directory:
 
 ``` Bash
-git clone https://github.com/justino/p2pool-ui-punchy.git
+git clone https://github.com/elb34st/p2pool-ui-nova.git
 ```
 
 ### As web-static replacement
@@ -39,8 +39,8 @@ To replace your current web-static, in the top directory of your p2pool installa
 
 ``` Bash
 mv web-static web-static-original
-git clone https://github.com/justino/p2pool-ui-punchy.git
-ln -s p2pool-ui-punchy web-static
+git clone https://github.com/elb34st/p2pool-ui-nova.git
+ln -s p2pool-ui-nova web-static
 ```
 
 ## Setup
@@ -51,7 +51,7 @@ Copy the example config `config.example.json` to `config.json` and modify to fit
 See the `Configuration` section below for option descriptions.
 
 Once this is setup, you'll be able to access the UI either by:
-`http://<url-to-your-p2pool>:<port>/static/p2pool-ui-punchy/` if you chose to do a parallel installation
+`http://<url-to-your-p2pool>:<port>/static/p2pool-ui-nova/` if you chose to do a parallel installation
 or
 `http://<url-to-your-p2pool>:<port>/static` is you chose to do a replacement installation
 
@@ -156,14 +156,16 @@ to set it to 20 seconds for example.
 
 If you like this UI, find it useful, or like that people out there are writing free software for everybody to use or contribute, please donate some coins:
 
-Bitcoin: 195ufic8mfNrDqxgFCfmw5mQYwdu2im9G5   
-Dashpay: XerSXuygP6PeUoqVRyC2BFFHpUXXkFU8UP   
-Dogecoin: DLethX5AdiwkvW28KhJxZBpBV9dr2ask5
+Bitcoin: 1MufTHJV36GwuMEn2cexnXkAoNBowt2JGF
+Vertcoin: VyBAG2KA7wTWPpa374eAAT6jGPmPfFkwVc
+Ethereum: 0x562F9759836044be56567802b1fC80Ae696Ca8F9   
+Litecoin: LfLbmqeuHdKSpoBxKVNWoRwNEmXRhBSHUx
 
 ### License
 
 The MIT License (MIT)
 
+Copyright (c) 2017 Alexandre Renaud vtc@boxienet.net
 Copyright (c) 2014-2015 Justin La Sotten justin.otten@gmail.com   
 Copyright (c) 2013-2014 Alexander Zschach alex@zschach.net
 
